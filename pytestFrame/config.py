@@ -29,5 +29,3 @@ class StaticConfig():
     email_to =['jason.tang@yamibuy.com','812227984@qq.com']
 
 
-class Rekkles_test():
-    pass
