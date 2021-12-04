@@ -2,12 +2,13 @@ import poium
 from poium.webdriver import Page
 import pytest
 import time
-from page.PC_page import Home_page
-from config import RunConfig,StaticConfig
+# from page.PC_page import Home_page
+# from config import RunConfig,StaticConfig
 import json
 from os.path import dirname, abspath
 import sys
-
+from pytestFrame.config import RunConfig,StaticConfig
+from pytestFrame.page.PC_page import Home_page
 
 base_path = dirname(dirname(abspath(__file__)))
 sys.path.insert(0, base_path)
